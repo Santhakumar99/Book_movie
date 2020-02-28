@@ -1,0 +1,116 @@
+.btn-outline-success {
+    color: white;
+    border-color: #1d1a1a;
+}
+.form-inline {
+color: white;
+}
+
+.form-control {
+    width:30%;
+}
+.btn {
+    color: #ffffff;
+}
+.nav_item{
+    margin-right: 2%;
+}
+.collapse navbar-collapse{
+    margin-right: 5%;
+}
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link{
+    color: rgb(255, 255, 255);
+}
+.navbar-light .navbar-nav .nav-link{
+    color: rgb(255, 255, 255);
+}
+.head-movie{
+    margin: 2px 2px 2px 2px;
+}
+.trend-movies col-md-3{
+    font-size:20px;
+}
+@media (min-width: 768px){
+.trend-movies col-md-3 {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+
+} 
+}
+
+  .row {
+      height: 100%;
+  }
+  .trend-head{
+    padding:10px 10px 10px 10px;
+  }
+.card{
+  margin:2px 15px 0 0;
+  padding-left: 10px;
+ 
+}
+.movies{
+  padding:10px 5px 5px 30px;
+  font-size: 28px;
+  font-weight: 800;
+}
+.events {
+  padding: 10px 5px 5px 10px;
+  font-size: 28px;
+  font-weight: 800;
+}
+/* <!--dropdownmenu--!> */
+.dropdown-menu.show{
+  text-align: center;
+}
+ 
+
+.carousel-inner .carousel-item.active,
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev {
+  display: flex;
+}
+
+.carousel-inner .carousel-item-right.active,
+.carousel-inner .carousel-item-next {
+  transform: translateX(33%);
+}
+
+.carousel-inner .carousel-item-left.active, 
+.carousel-inner .carousel-item-prev {
+  transform: translateX(-33%);
+}
+  
+.carousel-inner .carousel-item-right,
+.carousel-inner .carousel-item-left{ 
+  transform: translateX(0);
+  
+}
+.movie-img {
+	height:200px;width: 150px;background-color:  aqua;overflow: hidden;background-image: url("https://i.hizliresim.com/mX07R4.png");
+	background-repeat:no-repeat;
+	background-size: cover;
+	object-fit: fill;
+}
+
+.movie-title {
+	height: 40px; width:150px;background-color: black;overflow: hidden;
+}
+
+.d-block w-200{
+padding-left:20px;
+}
+@media (min-width: 768px){
+.col-md-12 {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+    padding-left: 20px;
+}
+}
+.inner-movie{
+  padding-left: 20px;
+}
+.d-block w-300{
+  padding-left: 10px;
+}
