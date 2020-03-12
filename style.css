@@ -40,7 +40,7 @@ color: white;
 
   .row {
       height: 100%;
-      margin-right:0;
+      margin-right:0 !important;
   }
   .trend-head{
     padding:10px 10px 10px 10px;
